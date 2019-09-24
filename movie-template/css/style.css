@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* @font-face {
+    font-family: awsomefont;
+    src:url(/files/font/font-awesome-web-font.ttf)
+} */
+
+body {
+    font-family: "Catamaran", sans-serif;
+}
+
+.first-container {
+    width: 100%;
+    background-color: black;
+}
+
+img[src$=svg]{
+    height: 20px;
+}
+
+/* images */
+.left-wrapper {
+    background-image: url(/files/photos/ace_Photo-16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-wrapper-top {
+    background-image: url(/files/photos/gravity_Photo-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-wrapper-bottom-left {
+    background-image: url(/files/photos/gift_Photo-12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-wrapper-bottom-right {
+    background-image: url(/files/photos/rock_Photo-10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ace-master-poster {
+    background-image: url(/files/photos/ace_Cover-16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.man-from-smoke-poster {
+    background-image: url(/files/photos/smoke_Cover-15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.man-in-the-forest-poster{
+    background-image: url(/files/photos/forest_Cover-13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gravity-runner-poster {
+    background-image: url(/files/photos/gravity_Cover-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.silent-hill {
+    background-image: url(/files/photos/silent-hill.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* end images */
+
+/* right side of head */
+
+.logo img{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    height: 30px;
+}
+
+.left-container, .right-container, .right-wrapper-bottom-left, .right-wrapper-bottom-right {
+    /* display: inline-block; */
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.right-wrapper-bottom-left, .right-wrapper-bottom-right {
+    width: 50%;
+}
+
+.left-container{
+    position: relative;
+    width: 65%;
+    color: white;
+}
+
+.right-container {
+    width: 35%;
+    color: white;
+}
+
+.details {
+    position: relative;
+}
+
+.description, .writer {
+    display: inline-block; 
+}
+
+.description {
+    width: 53%;
+    margin-left: 8%;
+    margin-top: 25%;
+}
+
+.point-type-1 {
+    color: white;
+    background-color: #f1b722;
+    width: 7%;
+    padding-left: 1%;
+    border-radius: 40%;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h1 {
+    color:white;
+    font-size: 4.5em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.speciality{
+    font-size: 16px;
+}
+
+.speciality img{
+    height: 15px;
+    margin-right: 10px;
+}
+
+.speciality a{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.time {
+padding-left: 2%;
+}
+
+.movie-info p{
+    font-family: "Roboto", sans-serif;
+    line-height: 2em;
+}
+
+.more a{
+    color: white;
+    border: 2px solid;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.more {
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.writer {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.writer-img, .writer-name, .writer-img-2{
+    display: inline-block;
+}
+.writer-img {
+    background-image: url(/files/photos/Portrait-3.jpg);
+    background-size: cover;
+    width: 45px;
+    height: 40px;
+    border-radius: 20%;
+    margin-right: 5%;
+    margin-bottom: -5px;
+}
+
+.writer-name {
+    width: 60%;
+}
+
+.writer-name p{
+    height: 40px;
+}
+
+/* end of right side head */
+
+/* left side head */
+
+.description-2, .writer-2 {
+    display: inline-block;
+}
+
+.description-2 {
+    width: 66%;
+    margin-left: 8%;
+    margin-top: 35%;
+}
+
+.writer-2 {
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+
+.point-type-2 {
+    color: white;
+    background-color: #f1b722;
+    width: 30px;
+    padding-left: 6px;
+    border-radius: 20px;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+h2  {
+    color:white;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 30;
+    font-weight: 800;
+}
+
+.writer-img-2 {
+    background-image: url(/files/photos/Portrait-1.jpg);
+    background-size: cover;
+    width: 45px;
+    height: 40px;
+    border-radius: 20%;
+    margin-right: 5%;
+    margin-bottom: -5px;
+}
+
+.more-2 {
+    margin: 15% 0;
+}
+
+/* left side bottom */
+
+.bottom-information {
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 22%;
+    margin-bottom: 13%;
+}
+
+
+/* navigation-menu */
+
+.navigation-bar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: #0c2738;
+    z-index: 1000;
+}
+
+.nav-content {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+.nav-logo{
+    margin-top: 2.5%;
+    margin-right: 30%;
+}
+
+nav ul{
+    padding: 0px;
+    margin-top: 0;
+}
+
+nav ul li{
+    font-size: 16px;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+
+nav a{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-logo{
+    float: left;
+}
+
+/* navigation-menu-end */
+
+/* highlights */
+
+.highlights {
+    background-color: #081b27;
+    position: relative;
+    padding-top: 10%;
+    color: white;
+    padding-bottom: 10%;
+}
+
+.highlights-wrapper {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+header, .movie-posters {
+    float: left;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 3%;
+}
+
+.left-side{
+    float: left;
+}
+
+.right-side {
+    float: left;
+    margin-top: 3.2%;
+    margin-left: 10%;
+}
+
+.right-side ul {
+    padding: 0;
+}
+
+.right-side li{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 40px;
+    margin-left: 10px
+}
+
+.right-side li a{
+    color: #081b27;
+}
+
+.left-side p {
+    padding-left: 1%;
+}
+
+.fourBlock {
+    position: relative;
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+
+.poster-size {
+    width: 100%;
+    height: 365px;
+}
+
+.point-middle {
+    position: absolute;
+    top: -10px;
+    left: 107px;
+}
+
+.poster-info {
+    margin-top: 15%;
+}
+
+.stars img {
+    height: 15px;
+}
+
+.fourBlock h3 {
+    margin: 3.5% 0;
+}
+
+.genre img, .genre p, .stars-type-1, .time {
+    float: left;
+}
+
+.genre p {
+    margin-top: 0;
+    padding-left: 3%;
+    text-decoration: underline;
+}
+
+/* highlights-end */
+
+/* one-movie-part */
+
+.silent-hill {
+    color: white;
+    position: relative;
+}
+
+.silent-edit {
+    bottom: 50px;
+    right: 260px;
+}
+/* one-movie-part ends*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+   background: rgba(0, 0, 0, .6);
+}
